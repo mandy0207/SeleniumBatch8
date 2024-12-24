@@ -9,7 +9,7 @@ public class MultipleBrowsers {
 
 	public static void main(String[] args) {
 		
-		String browser= "firefox";
+		String browser= "chrome";
 		WebDriver driver= null;
 		
 		
