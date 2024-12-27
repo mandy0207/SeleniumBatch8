@@ -1,4 +1,6 @@
 package javaBasics;
+import java.util.ArrayList;
+import java.util.List;
 
 public class StringManipulations {
 
@@ -12,6 +14,8 @@ public class StringManipulations {
 		else {
 			System.out.println("Condition not satisfied");
 		}
+		
+		List<String> list = new ArrayList<String>();
 
 	}
 
