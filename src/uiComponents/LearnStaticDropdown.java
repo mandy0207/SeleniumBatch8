@@ -22,16 +22,12 @@ public class LearnStaticDropdown {
 		WebElement dropdown = driver.findElement(By.xpath("//select[@id='single-input-field']"));
 		
 		Select staticDropdown = new Select(dropdown);
-		
 		staticDropdown.selectByVisibleText("Green");
-		
 		Thread.sleep(2000);
 		
 		staticDropdown.selectByValue("Yellow");
 		Thread.sleep(2000);
-		
 		staticDropdown.selectByIndex(1);
-		
 		driver.quit();
 		
 		
