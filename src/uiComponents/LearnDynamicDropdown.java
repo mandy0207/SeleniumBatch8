@@ -25,12 +25,19 @@ public class LearnDynamicDropdown {
 		
 		System.out.println(states.size());
 		
-		for(WebElement state : states) {
-			if(state.getText().equalsIgnoreCase("New Jersey")) {
-				state.click();
+		for(int i =0;i<states.size();i++) {
+			if(states.get(i).getText().equalsIgnoreCase("New Jersey")) {
+				states.get(i).click();
 				break;
 			}
 		}
+		
+//		for(WebElement state : states) {
+//			if(state.getText().equalsIgnoreCase("New Jersey")) {
+//				state.click();
+//				break;
+//			}
+//		}
 		
 		driver.quit();
 
