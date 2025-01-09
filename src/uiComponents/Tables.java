@@ -23,8 +23,6 @@ public class Tables {
 	   for(WebElement element: elementsList) {
 		   System.out.println(element.getText());
 	   }
-	   
-	
 	    driver.quit();
 	    
 	}
