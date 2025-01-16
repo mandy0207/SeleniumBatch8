@@ -29,15 +29,12 @@ public class LearnWaits {
 		driver.findElement(By.id("downloadButton")).click();
 		
 		
-		//Explicit Wait
+		//Explicit Wait - explicit to behavior of webelement
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); 
 		
 		wait.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//*[@class='progress-label']"), "Complete!"));
 		
 		driver.findElement(By.xpath("//*[@class='ui-dialog-buttonset']/button")).click();
-		
-		
-		
 		driver.quit();
 		
 
