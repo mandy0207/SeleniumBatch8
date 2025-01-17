@@ -28,8 +28,6 @@ public class LearnScreenshot {
 		
 		driver.quit();
 	
-		
-
 	}
 	
 	public static String getCurrentDateTime() {
